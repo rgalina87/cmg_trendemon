@@ -1,0 +1,415 @@
+{
+    "key": "group_636a22f6d2a9e",
+    "title": "Post Type: Landing Page",
+    "fields": [
+        {
+            "key": "field_636a22fa558ea",
+            "label": "Sections",
+            "name": "sections",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_636a2327e19c7": {
+                    "key": "layout_636a2327e19c7",
+                    "name": "lp_cta",
+                    "label": "LP CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_636a55d363203",
+                            "label": "LP CTA",
+                            "name": "lp_cta",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636a41805fa41"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63b175f99e109": {
+                    "key": "layout_63b175f99e109",
+                    "name": "quote_box",
+                    "label": "Quote Box",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63b175ff9e10a",
+                            "label": "Quote Box",
+                            "name": "quote_box",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63b1756b35f89"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63ad6ff718920": {
+                    "key": "layout_63ad6ff718920",
+                    "name": "text_and_image",
+                    "label": "Text and Image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63ad705b18921",
+                            "label": "Text and Image",
+                            "name": "text_and_image",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63948912c6414"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63ac485714f4c": {
+                    "key": "layout_63ac485714f4c",
+                    "name": "logo_partners",
+                    "label": "Logo Partners",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63ac486014f4d",
+                            "label": "Logo Partners",
+                            "name": "logo_partners",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_638dc98f92cec"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6370aa7868be5": {
+                    "key": "layout_6370aa7868be5",
+                    "name": "lp_texts_grid",
+                    "label": "LP Texts Grid",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6370aa8268be6",
+                            "label": "LP Texts Grid",
+                            "name": "lp_texts_grid",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636d18f0ba1cb"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_636bd692042b0": {
+                    "key": "layout_636bd692042b0",
+                    "name": "lp_bullets_grid",
+                    "label": "LP Bullets Grid",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_636bd6b7042b1",
+                            "label": "LP Bullets Grid",
+                            "name": "lp_bullets_grid",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636bd5767af83"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_636bc397b9068": {
+                    "key": "layout_636bc397b9068",
+                    "name": "lp_hero",
+                    "label": "LP Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_636bc3a2b9069",
+                            "label": "LP Hero",
+                            "name": "lp_hero",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636bc0017111c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_636b8a9bc95d4": {
+                    "key": "layout_636b8a9bc95d4",
+                    "name": "lp_quote",
+                    "label": "LP Quote",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_636b8aa8c95d5",
+                            "label": "LP Quote",
+                            "name": "lp_quote",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636b8830eae5a"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63b534ecbe1bb": {
+                    "key": "layout_63b534ecbe1bb",
+                    "name": "paragraph",
+                    "label": "Paragraph",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63b534f9be1bc",
+                            "label": "Paragraph",
+                            "name": "Paragraph",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6396dd30683c4"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63d79724d8152": {
+                    "key": "layout_63d79724d8152",
+                    "name": "specific_offer",
+                    "label": "Specific Offer",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63d7972cd8154",
+                            "label": "Specific Offer",
+                            "name": "specific_offer",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63d79684d9774"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63d7db4e76360": {
+                    "key": "layout_63d7db4e76360",
+                    "name": "reviews",
+                    "label": "Reviews",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63d8d98203837",
+                            "label": "Section Title",
+                            "name": "section_title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_63d8c9a60e95c",
+                            "label": "msg",
+                            "name": "",
+                            "aria-label": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Global Content form theme options",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Row"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "lp"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1675155866
+}

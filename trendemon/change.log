@@ -1,0 +1,11 @@
+08.08.2022 -- CMG start working
+* changed: button text on front-page.php
+* config: removed all sftp accounts but lena's
+
+14.08.2022 (accumulated actions)
+* added: menu.css file on enqueue.php
+* added: mobile menu functions on custom.js
+* changed: canceled 'shrink; indicaton for menu on custom.js
+* changed: replaced navigation menu inclusions on header.php
+* test: ! disabled preloader for testing ! header.php, custom.js 
+    * (preloader is a simple delay and not considering actual page load time)

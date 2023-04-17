@@ -1,0 +1,170 @@
+{
+    "key": "group_63959a853d2d2",
+    "title": "Template: Product",
+    "fields": [
+        {
+            "key": "field_63959a91eccbf",
+            "label": "Sections",
+            "name": "sections",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_63959b09bfce4": {
+                    "key": "layout_63959b09bfce4",
+                    "name": "text_and_image",
+                    "label": "Text and Image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63959b25eccc0",
+                            "label": "Text and Image",
+                            "name": "text_and_image",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63948912c6414"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6395b02defcd1": {
+                    "key": "layout_6395b02defcd1",
+                    "name": "lp_hero",
+                    "label": "LP Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6395b03fefcd2",
+                            "label": "LP Hero",
+                            "name": "lp_hero",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636bc0017111c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6395ad2c47108": {
+                    "key": "layout_6395ad2c47108",
+                    "name": "lp_cta",
+                    "label": "LP CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6395ad3c47109",
+                            "label": "LP CTA",
+                            "name": "lp_cta",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636a41805fa41"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a4565e5b215": {
+                    "key": "layout_63a4565e5b215",
+                    "name": "explore",
+                    "label": "Explore other pages",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63a456795b217",
+                            "label": "Explore",
+                            "name": "explore",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63a4520fdc05c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Row"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template\/page-product.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1671742934
+}

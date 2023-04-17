@@ -1,0 +1,191 @@
+footer {
+    display: none;
+}
+
+header {
+    display: none;
+}
+
+/*** Hero ***/
+
+.lp-hero-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.lp-hero-title {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    align-self: center;
+}
+
+.lp-hero-main img {
+    max-width: 555px;
+}
+
+/*** CTA ***/
+
+section.td-lp-cta {
+    /*background-color: #FFFFFF;*/
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.lp-cta-cont {
+    /*background-color: #F53E72;*/
+    background-image: url("https://trendemondev.wpengine.com/wp-content/uploads/2022/11/pink_bg.png");
+    background-size: cover;
+    box-shadow: 0 15px 30px rgba(187, 199, 229, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+h2.cta-box-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.045em;
+}
+
+.cta-box-text {
+    max-width: 555px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.045em;
+}
+
+a.lp-cta-button {
+    background-color: #FFFFFF;
+    color: #2e364a;
+    border-radius: 50px;
+    padding: 13px 26px;
+}
+
+a.lp-cta-button span {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.045em;
+}
+
+/*** Bullets ***/
+
+h2.lp-bullets-grid-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 50px;
+}
+
+.lp-bullets-grid-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    text-align: center;
+    gap: 55px;
+}
+
+.lp-single-bullet img {
+    margin-bottom: 15px;
+}
+
+.lp-single-bullet-title {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+
+/*** Quote ***/
+
+section.td-lp-quote {
+    background-color: #FBFBFE;
+    text-align: center;
+    padding-bottom: 49px;
+    color: #211f42;
+}
+
+.lp-quote-cont {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.lp-quote-text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    font-style: italic;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.lp-quote-author,
+.lp-quote-authors-info {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.lp-quote-authors-info {
+    margin-bottom: 140px;
+}
+
+/*div.lp-quote-text::before {*/
+/*    content: '';*/
+/*    background-image: url(../images/quote.svg);*/
+/*    background-repeat: no-repeat;*/
+/*    width: 40px;*/
+/*    height: 23.5px;*/
+/*    position: absolute;*/
+/*    bottom: calc(42% - 55px);*/
+/*    left: calc(25% - 35px);*/
+/*    margin-top: 50px;*/
+/*}*/
+
+
+/*.lp-quote-authors-info::after {*/
+/*    content: '';*/
+/*    background-image: url(../images/quote.svg);*/
+/*    background-repeat: no-repeat;*/
+/*    !* border-top: 2px solid red; *!*/
+/*    width: 40px;*/
+/*    height: 23.5px;*/
+/*    position: absolute;*/
+/*    bottom: -70px;*/
+/*    right: calc(25% - 25px);*/
+/*}*/
+
+/*.lp-quote-cont::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    border-top: 2px solid #F53E72;*/
+/*    width: 226px;*/
+/*    left: 401px;*/
+/*    bottom: calc(40% - 30px);*/
+/*}*/
+
+/*.lp-quote-cont::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    border-top: 2px solid #F53E72;*/
+/*    width: 226px;*/
+/*    bottom: -60px;*/
+/*    right: 401px;*/
+/*}*/
+
+

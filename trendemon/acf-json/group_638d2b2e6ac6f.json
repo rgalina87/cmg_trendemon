@@ -1,0 +1,232 @@
+{
+    "key": "group_638d2b2e6ac6f",
+    "title": "Template: Partners temp",
+    "fields": [
+        {
+            "key": "field_638d2b2e8176b",
+            "label": "Sections",
+            "name": "sections",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_636a2327e19c7": {
+                    "key": "layout_636a2327e19c7",
+                    "name": "lp_cta",
+                    "label": "LP CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_638d2b2ea8c72",
+                            "label": "LP CTA",
+                            "name": "lp_cta",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636a41805fa41"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6370aa7868be5": {
+                    "key": "layout_6370aa7868be5",
+                    "name": "lp_texts_grid",
+                    "label": "LP Texts Grid",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_638d2b2ea8cce",
+                            "label": "LP Texts Grid",
+                            "name": "lp_texts_grid",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636d18f0ba1cb"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_636bd692042b0": {
+                    "key": "layout_636bd692042b0",
+                    "name": "lp_bullets_grid",
+                    "label": "LP Bullets Grid",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_638d2b2ea8d20",
+                            "label": "LP Bullets Grid",
+                            "name": "lp_bullets_grid",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636bd5767af83"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_636bc397b9068": {
+                    "key": "layout_636bc397b9068",
+                    "name": "lp_hero",
+                    "label": "LP Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_638d2b2ea8d65",
+                            "label": "LP Hero",
+                            "name": "lp_hero",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636bc0017111c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_636b8a9bc95d4": {
+                    "key": "layout_636b8a9bc95d4",
+                    "name": "lp_quote",
+                    "label": "LP Quote",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_638d2b2ea8ed1",
+                            "label": "LP Quote",
+                            "name": "lp_quote",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636b8830eae5a"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_638dca882831a": {
+                    "key": "layout_638dca882831a",
+                    "name": "logo_partners",
+                    "label": "Logo Partners",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_638dca942831b",
+                            "label": "Logo Partners",
+                            "name": "logo_partners",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_638dc98f92cec"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Row"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template\/partners.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1670237115
+}

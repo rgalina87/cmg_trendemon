@@ -1,0 +1,219 @@
+footer.footer_area {
+  padding: 30px 0 90px;
+  font-family: var(--font-family-proxima);
+}
+footer.footer_area,
+footer.footer_area a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+footer.footer_area .container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0 30px;
+  width: 100%;
+}
+ul#menu-resource-menu,
+ul#menu-overview-menu {
+  grid-column-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.footer-row {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 40px;
+}
+.footer-column.social-column {
+  max-width: 560px;
+}
+.footer-menu-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);  
+  gap: 40px;
+}
+.footer-menu-container li.menu-item > a {
+  line-height: 20px;
+  display: inherit;
+}
+.footer-menu-container li{
+  margin-bottom: 16px;
+}
+
+.footer-column h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 12px;
+  font-family: var(--font-family-proxima);
+  color: #fff;
+  white-space: nowrap;
+}
+.footer-column .footer-social h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.footer-social,
+.footer-social ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.footer-social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #4a556c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-copyright {
+  display: flex;
+  padding: 18px 30px;
+  gap: 25px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0;
+  border-top: 2px solid #4a556c;
+  justify-content: space-between;
+}
+.footer-form-social {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-top: 35px;
+}
+div#footer-form {
+  width: 100%;
+  max-width: 260px;
+}
+div#footer-form .input {
+  background-color: #fff;
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+}
+div#footer-form input.hs-input[type="email"] {
+  max-width: calc(100% - 60px);
+  margin: 6px 12px;
+  padding: 0;
+  height: 38px;
+  border: none;
+}
+div#footer-form input.hs-input[type="email"]::placeholder {
+  text-transform: initial;
+  font-family: var(--font-family-proxima);
+}
+div#footer-form .hs_email > label {
+  display: none;
+}
+div#footer-form form {
+  position: relative;
+}
+div#footer-form input.hs-button[type="submit"] {
+  background-color: #ed2470;
+  height: 42px;
+  width: 42px;
+  padding: 0 !important;
+  margin: 0;
+  text-indent: 1000px;
+  display: inline-block;
+  background-image: url(../images/white_arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+}
+div#footer-form .hs_submit.hs-submit {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+}
+div#footer-form ul.no-list.hs-error-msgs.inputs-list {
+  position: absolute;
+  bottom: inherit;
+  line-height: 0;
+}
+div#footer-form ul.no-list.hs-error-msgs.inputs-list {
+  position: absolute;
+  bottom: inherit;
+  line-height: 0;
+  margin: 0;
+}
+div#footer-form ul.no-list.hs-error-msgs.inputs-list label.hs-error-msg {
+  font-size: 13px;
+  margin: 0;
+  line-height: 20px;
+}
+div#footer-form .hs_error_rollup {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer-copyright {
+    position: relative;
+    border: none;
+    
+  }
+  footer.footer_area {
+    padding: 30px 0;
+  }
+  .footer-copy-cont {
+    font-size: 18px;
+  }
+  ul#menu-resource-menu,
+  ul#menu-overview-menu {
+    grid-template-columns: repeat(2, auto);
+  }
+  .footer-form-social,
+  .footer-copyright {
+    flex-direction: column;
+    align-items: start;
+    padding: 25px 0 0;
+  }
+  div#footer-form {
+    width: 100%;
+    max-width: 335px;
+  }
+} /*1800*/
+
+@media screen and (max-width: 1300px) {
+  ul#menu-resource-menu,
+  ul#menu-overview-menu {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .footer-column .footer-social h2 {
+    font-size: 24px;
+  }
+} /*1300*/
+@media screen and (max-width: 1024px) {
+  .footer-menu-container{
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 900px) {
+    .footer-row {
+        grid-template-columns: 1fr ;
+        grid-row-gap: 60px;
+      }
+}
+
+@media screen and (max-width: 680px) {
+  
+  footer.footer_area {
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 580px) {
+  .footer-menu-container{
+    grid-template-columns: repeat(1, auto);
+  }
+}
+

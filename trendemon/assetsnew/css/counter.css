@@ -1,0 +1,58 @@
+/*div.number_txt::after {
+  font: 800 40px system-ui;
+  content: counter(count);
+  animation: counter 5s linear infinite alternate;
+  counter-reset: count 0;
+}
+
+@keyframes counter {
+  0% {
+    counter-increment: count 0;
+  }
+  10% {
+    counter-increment: count 1;
+  }
+  20% {
+    counter-increment: count 2;
+  }
+  30% {
+    counter-increment: count 3;
+  }
+  40% {
+    counter-increment: count 4;
+  }
+  50% {
+    counter-increment: count 5;
+  }
+  60% {
+    counter-increment: count 6;
+  }
+  70% {
+    counter-increment: count 7;
+  }
+  80% {
+    counter-increment: count 8;
+  }
+  90% {
+    counter-increment: count 9;
+  }
+  100% {
+    counter-increment: count 10;
+  }
+}
+*/
+span.counter{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #f53e72;
+  }
+
+
+@media screen and (min-device-width: 360px) and (max-device-width: 760px) { 
+span.counter{
+    font-size: 30px !important;
+    font-weight: 700;
+    color: #f53e72;
+}
+}
