@@ -611,6 +611,10 @@
   margin: 0 7px;
 }
 
+img.pricing-awards__image {
+  width: 125px;
+}
+
 .pricing .pricing-awards {
   padding: 88px 0;
   position: relative;

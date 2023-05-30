@@ -1,7 +1,3 @@
-
-
-
-
 <section class="td-lp-hero <?= get_sub_field('section_class') ?>" id="<?= get_sub_field('section_id') ?>" data-id="<?= get_sub_field('data_id') ?>">
     <div class="container">
         <div class="lp-hero-main">
@@ -31,16 +27,15 @@
             </div>
             <?php
             if (get_sub_field('show_json_animation')) { ?>
-                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <?php if (get_sub_field('lp_hero_animation_file')) { ?>
-                    <lottie-player src="<?= get_sub_field('lp_hero_animation_file') ?>" 
-                    background="transparent" 
-                    speed="1" 
-                     loop autoplay></lottie-player>
-                <?php }
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="<?= get_sub_field('lp_hero_animation_file') ?>" background="transparent" speed="1" loop autoplay></lottie-player>
+                <?php }elseif (get_sub_field('lp_video')) {
+                     the_sub_field('lp_video');
+                }
             } else {
                 if (get_sub_field('lp_hero_image')) { ?>
-                    <img src="<?= get_sub_field('lp_hero_image') ?>" class="<?= get_sub_field('add_shadow_to_image')?'shadow':''; ?>" />
+                    <img src="<?= get_sub_field('lp_hero_image') ?>" class="<?= get_sub_field('add_shadow_to_image') ? 'shadow' : ''; ?>" />
             <?php }
             } ?>
 

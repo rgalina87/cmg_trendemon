@@ -120,10 +120,13 @@ while (have_posts()) : the_post();
                     <div class="pricing-awards__list">
                         <?php if (isset($awards['list']) && $awards['list']) { ?>
                             <?php foreach ($awards['list'] as $item) : ?>
-                                <?php if (isset($item['html_code']) && $item['html_code']) { ?>
-                                    <div class="pricing-awards__listItem">
-                                        <?= $item['html_code']; ?>
-                                    </div>
+<!--                                --><?php //if (isset($item['html_code']) && $item['html_code']) { ?>
+<!--                                    <div class="pricing-awards__listItem">-->
+<!--                                        --><?php //= $item['html_code']; ?>
+<!--                                    </div>-->
+<!--                                --><?php //} ?>
+                                <?php if (isset($item['awards_image']) && $item['awards_image']) { ?>
+                                    <img class="pricing-awards__image" src="<?= $item['awards_image']['url']?>" alt="<?= $item['awards_image']['alt']?>" title="<?= $item['awards_image_title']?>">
                                 <?php } ?>
                             <?php endforeach; ?>
                         <?php } ?>

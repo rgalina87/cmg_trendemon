@@ -107,8 +107,12 @@ section.td-lp-hero {
 }
 
 .lp-hero-main img,
-.lp-hero-main lottie-player {
+.lp-hero-main lottie-player,
+.lp-hero-main iframe {
   max-width: 555px;
+}
+.lp-hero-main iframe{
+  width: 100%;
 }
 .lp-hero-main img.shadow {
   box-shadow: 0px 0px 10px 3px rgba(40, 17, 131, 0.14);

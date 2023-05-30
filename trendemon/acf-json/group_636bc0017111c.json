@@ -61,7 +61,7 @@
         },
         {
             "key": "field_63a495560be14",
-            "label": "Show JSON animation",
+            "label": "Show JSON animation or video",
             "name": "show_json_animation",
             "aria-label": "",
             "type": "true_false",
@@ -120,7 +120,15 @@
             "type": "true_false",
             "instructions": "",
             "required": 0,
-            "conditional_logic": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_63a495560be14",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
             "wrapper": {
                 "width": "20",
                 "class": "",
@@ -150,7 +158,7 @@
                 ]
             ],
             "wrapper": {
-                "width": "100",
+                "width": "50",
                 "class": "",
                 "id": ""
             },
@@ -159,6 +167,31 @@
             "min_size": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_645917bfef0df",
+            "label": "LP video",
+            "name": "lp_video",
+            "aria-label": "",
+            "type": "oembed",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_63a495560be14",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "width": 555,
+            "height": ""
         },
         {
             "key": "field_638dacc9effc8",
@@ -281,5 +314,5 @@
     "active": false,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1675585475
+    "modified": 1683561176
 }

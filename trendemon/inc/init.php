@@ -10,7 +10,7 @@ define( 'THEME_INC' , THEME_PATH . '/inc' );
 define( 'THEME_CORE' , THEME_INC . '/core' );
 define( 'THEME_TEMPLATES' , THEME_INC . '/templates' );
 define( 'THEME_COMPONENTS' , THEME_INC . '/components' );
-define( 'THEME_FILES_VERSION', '6.2.1');
+define( 'THEME_FILES_VERSION', '6.2.2');
 
 require THEME_PATH . '/inc/enqueue.php';
 

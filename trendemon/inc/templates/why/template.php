@@ -41,7 +41,7 @@ while (have_posts()) : the_post();
                                 <?php $i = 1;
                                 while (have_rows('imagesandtexts')) : the_row(); ?>
 
-                                    <img data-target="iat<?= $i; ?>" <?php if ($i == 1) { ?>class="image-active" <?php } ?> src="<?= get_sub_field('image')['url']; ?>" <?php if (get_sub_field('image2x')) { ?>srcset="<?= get_sub_field('image2x')['url']; ?> 2x" <?php } ?> alt="<?= get_sub_field('image')['alt']; ?>">
+                                    <img data-target="iat<?= $i; ?>" <?php if ($i == 1) { ?>class="image-active" <?php } ?> src="<?= get_sub_field('image')['url']; ?>" onclick="openLightbox('<?= get_sub_field('image')['url']; ?>')" <?php if (get_sub_field('image2x')) { ?>srcset="<?= get_sub_field('image2x')['url']; ?> 2x" <?php } ?> alt="<?= get_sub_field('image')['alt']; ?>">
 
                                 <?php $i++;
                                 endwhile; ?>
@@ -103,3 +103,43 @@ while (have_posts()) : the_post();
 endwhile;
 get_footer();
 ?>
+
+<style>
+    /* CSS for the lightbox */
+    .lightbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8); /* Change the background color here */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .lightbox img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+</style>
+<script>
+    // JavaScript for the lightbox functionality
+    function openLightbox(imageUrl) {
+        var lightbox = document.createElement("div");
+        lightbox.classList.add("lightbox");
+
+        var image = document.createElement("img");
+        image.src = imageUrl;
+        image.addEventListener("click", closeLightbox);
+
+        lightbox.appendChild(image);
+        document.body.appendChild(lightbox);
+    }
+
+    function closeLightbox() {
+        var lightbox = document.querySelector(".lightbox");
+        lightbox.remove();
+    }
+</script>
