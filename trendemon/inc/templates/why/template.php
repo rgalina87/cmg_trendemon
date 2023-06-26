@@ -123,9 +123,14 @@ get_footer();
         max-width: 100%;
         max-height: 100%;
     }
+
+    .image-active:hover,
+    .lightbox img:hover {
+        cursor: pointer;
+    }
 </style>
 <script>
-    // JavaScript for the lightbox functionality
+    // Open the lightbox
     function openLightbox(imageUrl) {
         var lightbox = document.createElement("div");
         lightbox.classList.add("lightbox");
@@ -136,10 +141,25 @@ get_footer();
 
         lightbox.appendChild(image);
         document.body.appendChild(lightbox);
+
+        // Close the lightbox when clicking outside the image
+        lightbox.addEventListener("click", function(event) {
+            if (event.target === lightbox) {
+                closeLightbox();
+            }
+        });
     }
 
+    // Close the lightbox
     function closeLightbox() {
         var lightbox = document.querySelector(".lightbox");
         lightbox.remove();
     }
+
+    // Close with Esc key press
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Escape") {
+            closeLightbox();
+        }
+    });
 </script>
